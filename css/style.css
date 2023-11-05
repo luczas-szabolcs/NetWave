@@ -100,6 +100,14 @@ button {
     color: #9bca84;
 }
 
+.text-lightblue {
+    color: #1daae2;
+}
+
+.bg-lightgreen {
+    background-color: #edeeed;
+}
+
 .tervalaszto {
     position: absolute;
     bottom: 0;
@@ -119,4 +127,24 @@ button {
 .elvalaszto {
     background-color: #9bca84;
     height: 3px;
+}
+
+#login input  {
+    border: none;
+    border-radius: 5px;
+}
+
+#login input:focus  {
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid #9bca84;
+}
+
+#belepes-keret {
+    height: calc(100vh - 259px);
+}
+
+#login a:hover {
+    color: #9bca84;
 }
