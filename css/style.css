@@ -104,8 +104,8 @@ button {
     color: #1daae2;
 }
 
-.bg-lightgreen {
-    background-color: #edeeed;
+.bg-lightblue {
+    background-color: #d5edf3;
 }
 
 .tervalaszto {
@@ -132,6 +132,7 @@ button {
 #login input  {
     border: none;
     border-radius: 5px;
+    border-bottom: 2px solid white;
 }
 
 #login input:focus  {
@@ -146,5 +147,33 @@ button {
 }
 
 #login a:hover {
-    color: #9bca84;
+    color: #1d56a1;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: white;
+    background-color: #1daae2;
+}
+
+.dropdown-menu {
+    padding: 0;
+    overflow: hidden;
+}
+
+.dropdown-item {
+    padding-left: 10px !important;
+}
+
+.lenyilomenu {
+    height: 50px;
+    min-width: 158px;
+}
+
+.lakcimellenorzo input {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.bg-input {
+    background-color: #f1f7f8;
 }

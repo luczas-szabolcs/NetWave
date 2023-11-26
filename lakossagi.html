@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>NetWave</title>
+    <title>NetWave-Lakossag</title>
     <link rel="shortcut icon" href="./kepek/favicon2.png" type="image/x-icon">
 </head>
 <body>
@@ -48,70 +48,95 @@
             </div>
         </div>
     </div>
-    <!-- Banner -->
-    <div id="carouselExampleControls" class="carousel slide align-midle" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" style="background-image: url('./kepek/kep1.jpg');">
-            <!-- <img src="./kepek/kep1.jpg" class="d-block w-100" alt="..."> -->
-          </div>
-          <div class="carousel-item" style="background-image: url('./kepek/kep2.jpg');">
-            <!-- <img src="./kepek/kep2.jpg" class="d-block w-100" alt="..."> -->
-          </div>
-          <div class="carousel-item" style="background-image: url('./kepek/kep3.jpg');">
-            <!-- <img src="./kepek/kep3.jpg" class="d-block w-100" alt="..."> -->
-          </div>
+    <!-- Lakcím ellenőrző -->
+    <div class="container-fluid py-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="container bg-white arnyek rounded">
+                    <div class="row">
+                        <div class="col-12 mt-4">
+                            <h1 class="mb-4 bemutatkozas">VEZETÉKES INTERNET CÍMELLENŐRZÉS</h1>
+                            <hr class="elvalaszto mb-4">
+                        </div>
+                        <div class="col-12 mb-3">
+                            A pontos címed megadásával ellenőrizheted vezetékes internetszolgáltatásunk elérhetőségét és megismerheted aktuális ajánlatainkat.
+                        </div>
+                    </div>
+                    <form class="row lakcimellenorzo pt-2 pb-5 px-3" id="login" action="">
+                        <div class="col-3">
+                            <label for="irsz"><span class="text-danger">*</span>Irányítószám</label>
+                            <input class="bg-input" type="number" id="irsz" name="irsz" min="1011" max="9985" placeholder="6760">
+                        </div>
+                        <div class="col-3">
+                            <label for="varos"><span class="text-danger">*</span>Település</label>
+                            <input class="bg-input" type="text" id="varos" name="varos" placeholder="Kistelek">
+                        </div>
+                        <div class="col-3">
+                            <label for="utca"><span class="text-danger">*</span>Utca</label>
+                            <input class="bg-input" type="text" id="utca" name="utca" placeholder="Erzsébet">
+                        </div>
+                        <div class="col-3">
+                            <label for="hsz"><span class="text-danger">*</span>Házszám</label>
+                            <input class="bg-input" type="number" id="hsz" name="hsz" placeholder="36">
+                        </div>
+                    </form>
+                </div>        
+            </div>
         </div>
-       <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </button>
-        <div class="tervalaszto"></div>
     </div>
-    <!-- Bemutatkozás -->
-    <div id="hatter" class="container-fluid">
+    <!-- Csomagok -->
+    <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="container">
-                    <div class="row py-5 mt-5">
-                        <div class="col-12 bg-white arnyek formazas rounded py-4 px-3">
-                            <h1 class="mb-4 bemutatkozas">Bemutatkozás</h1>
-                            <hr class="elvalaszto mb-4">
-                            <p>
-                                NetWave Connect egy olyan távközlési szolgáltató, akik az online kapcsolatot és az emberi kapcsolatokat hozza közelebb egymáshoz. Az első pillanattól kezdve célunk az volt, hogy forradalmasítsuk a digitális kommunikációt, és lehetővé tegyük az emberek és videójátékosok számára, hogy egyszerűen, megbízhatóan és élvezetesen tartózkodjanak az internet világában.
-                            </p>
-                            <p>
-                                Mit kínálunk?
-                            </p>
-                            <p>
-                                <strong>Stabil Kapcsolat:</strong> Cégünk egy olyan hálózatot biztosít, amelyen keresztül a felhasználók könnyedén és megbízhatóan csatlakozhatnak az internethez. 
-                            </p>
-                            <p>
-                                <strong>Szórakozás:</strong> Szeretjük a szórakozást, és tudjuk, hogy te is így vagy vele!
-                            </p>
-                            <p>
-                                <strong>Közösségépítés:</strong> Az emberek kapcsolatai fontosak számunkra.
-                            </p>
-                            <p>
-                                <strong>Innováció:</strong>  Az innováció és a kreativitás számunkra alapvető értékek.
-                            </p>  
-                            <p>
-                                NetWave Connect, ahol a hálózat erős, a kapcsolat szilárd, és a videójáték mindig nyerő!
-                            </p>
-                            <button class="btn float-right">Tudj meg többet!</button>
+                    <div class="row pt-4 pb-2 mt-5">
+                        <div class="col-4">
+                            <div class="bg-white arnyek text-center py-3 px-4 rounded">
+                                <h3 class="mb-4">Szolgáltatás neve</h3>
+                                <p class="text-primary mb-0">Szolgáltatás sávszélessége</p>
+                                <p>leírás</p>
+                                <p class="text-primary mb-0">Átlagos sávszélesség</p>
+                                <p>leírás</p>
+                                <p class="text-primary mb-0">Garantált sávszélesség</p>
+                                <p>leírás</p>
+                                <button class="btn">Take my money!</button>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="bg-white arnyek text-center py-3 px-4 rounded">
+                                <h3 class="mb-4">Szolgáltatás neve</h3>
+                                <p class="text-primary mb-0">Szolgáltatás sávszélessége</p>
+                                <p>leírás</p>
+                                <p class="text-primary mb-0">Átlagos sávszélesség</p>
+                                <p>leírás</p>
+                                <p class="text-primary mb-0">Garantált sávszélesség</p>
+                                <p>leírás</p>
+                                <button class="btn">Take my money!</button>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="bg-white arnyek text-center py-3 px-4 rounded">
+                                <h3 class="mb-4">Szolgáltatás neve</h3>
+                                <p class="text-primary mb-0">Szolgáltatás sávszélessége</p>
+                                <p>leírás</p>
+                                <p class="text-primary mb-0">Átlagos sávszélesség</p>
+                                <p>leírás</p>
+                                <p class="text-primary mb-0">Garantált sávszélesség</p>
+                                <p>leírás</p>
+                                <button class="btn">Take my money!</button>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Csomagok -->
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-12">
                 <div class="container">
-                    <div class="row py-5 mt-5">
+                    <div class="row py-2 mt-2">
                         <div class="col-4">
                             <div class="bg-white arnyek text-center py-3 px-4 rounded">
                                 <h3 class="mb-4">Szolgáltatás neve</h3>
@@ -126,7 +151,7 @@
                             </div>
                         </div>
                         <div class="col-4">
-                            <div class="king bg-white arnyek text-center py-3 px-4 rounded">
+                            <div class="bg-white arnyek text-center py-3 px-4 rounded">
                                 <h3 class="mb-4">Szolgáltatás neve</h3>
                                 <p class="text-primary mb-0">Szolgáltatás sávszélessége</p>
                                 <p>leírás</p>
@@ -148,7 +173,7 @@
                                 <p class="text-primary mb-0">Garantált sávszélesség</p>
                                 <p>leírás</p>
                                 <button class="btn">Take my money!</button>
-                                 
+                                
                             </div>
                         </div>
                     </div>
